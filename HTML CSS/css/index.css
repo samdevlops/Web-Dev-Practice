@@ -1,15 +1,45 @@
 body{
-    background-image: url("download.jpg");
-}
-
-.main{
-    width:50vw;
-    position: fixed;
+    /*background-image: url("download.jpg");*/
+    margin:10px;
 }
 
 p{
-    height:200vh;
-    background-color: tomato;
-    color:white;
+   
     border:5px solid gold;
+}
+
+.container{
+    border: 3px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex{
+    height:8rem;
+    width:8rem;
+    background-color: gold;
+    margin:10px;
+}
+
+.container-two{
+    display: grid;  
+    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(2, 100px);
+    border: 4px dashed red;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.box{
+    margin: 10px;
+    background-color: rgb(47, 50, 255);
+    height: 4rem;
+    width: 8rem;
+}
+
+.box-three{
+    
 }
