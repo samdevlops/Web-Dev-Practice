@@ -1,0 +1,29 @@
+body{
+    background-image: url(download.jpg);
+}
+
+.boxes{
+    border: 3px solid grey;
+    position: relative;
+    height: 200vh;
+}
+
+.box{
+    width: 15rem;
+    height: 15rem;
+}
+
+.box-one{
+    background-color: gold;
+}
+
+.box-two{
+    background-color: tomato;
+    position: absolute;
+    left: 15rem;
+    top: 7.5rem;
+}
+
+.box-three{
+    background-color: dodgerblue;
+}

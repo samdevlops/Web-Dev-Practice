@@ -3,9 +3,27 @@ body{
     margin:10px;
 }
 
-p{
-   
-    border:5px solid gold;
+.box1{
+    height: 300px;
+    width : vw;
+    margin: 10px 20px;
+    background-color: gold;
+    border: 10px solid red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.boxes{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: blue;
+    display: inline-block;
+    border: 5px solid black;
+}
+
+.lorem-box{
+    overflow: auto;
 }
 
 .container{
@@ -31,15 +49,4 @@ p{
     align-items: center;
     justify-items: center;
     align-items: center;
-}
-
-.box{
-    margin: 10px;
-    background-color: rgb(47, 50, 255);
-    height: 4rem;
-    width: 8rem;
-}
-
-.box-three{
-    
 }

@@ -1,0 +1,17 @@
+body{
+display: grid;
+justify-items: center;
+}
+
+.container{
+    border : 3px solid black;
+    width:25rem;
+    text-align: center;
+    background-color: gold;
+}
+
+#submit-btn{
+    background-color: tomato;
+    height: 2rem;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,67 @@
+/* FlexBox CSS */
+
+.navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+.navitems{
+    margin: 5px;
+    padding: 2px;
+}
+
+.container{
+    margin-top: 5px;
+    border: 3px solid rgb(211, 14, 14);
+    display: flex;
+    height: fit-content;
+}
+
+.box{
+    background-color: gold;
+    height: 300px;
+    width: 500px;
+    margin: 20px;
+    align-content: center;
+}
+/* 
+.box-one{
+    flex-grow: 0;
+}
+
+.box-two{
+    flex-shrink: 0;
+} */
+
+.hr{
+    height: 3px;
+    background-color: blue;
+}
+
+
+/* Floating Elements CSS*/
+.tweet{
+    border: 2px solid lightgray;
+    padding: 1rem;
+}
+
+.avatar{
+    border : 3px solid black;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: gold;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.text{
+    margin-top: 0.5rem;
+}
+
+.handle{
+    padding-top: 0rem ;
+}
