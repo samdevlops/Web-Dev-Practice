@@ -1,5 +1,5 @@
 body{
-    /*background-image: url("download.jpg");*/
+    background-image: url("colorful-stingrays.svg");
     margin:10px;
 }
 
@@ -9,21 +9,16 @@ body{
     margin: 10px 20px;
     background-color: gold;
     border: 10px solid red;
-    padding: 20px;
-    box-sizing: border-box;
+    padding: 10px;
 }
 
 .boxes{
     height: 150px;
     width: 150px;
-    margin: 20px;
+    margin: 10px;
     background-color: blue;
     display: inline-block;
     border: 5px solid black;
-}
-
-.lorem-box{
-    overflow: auto;
 }
 
 .container{

@@ -1,0 +1,68 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    align-items: center;
+    background: url(../images/background_w320.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.banner-head{
+    font-size: 5rem;
+    text-shadow: 2px 2px 0 #000;
+    word-spacing: 1.5rem;   
+    font-weight: 900;
+}
+
+.banner-text{
+    background: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    padding: 1.5rem;
+}
+
+
+@media screen and (min-width:768px){
+    .banner{
+        background: url(../images/background_w853.jpg) no-repeat;
+        background-size: cover;
+    }
+    .banner-head{
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (min-width:1024px){
+    .banner{
+        background: url(../images/background_w1228.jpg) no-repeat;
+        background-size: cover;
+    }
+    .banner-head{
+        font-size: 6rem;
+    }
+}
+
+
+@media screen and (min-width:1440px){
+    .banner{
+        background: url(../images/background_w1440.jpg) no-repeat;
+        background-size: cover;
+    }
+    .banner-head{
+        font-size: 9rem;
+    }
+}
